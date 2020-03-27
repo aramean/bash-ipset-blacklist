@@ -1,9 +1,14 @@
 # bash-ipset-blacklist
 Ban and unban IP or IP subnet simple with commands.
 
-#### 1. Install IPset (CentOS)
+#### 1. Install IPset
+##### With YUM
 ```
 sudo yum install ipset
+```
+#### With APT
+```
+sudo apt-get install ipset
 ```
 
 #### 2. Setup hashmap
